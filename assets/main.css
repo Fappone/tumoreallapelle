@@ -29,8 +29,20 @@ body, html{
   align-items: center ;
 }
 
+.accordion-header {
+  font-family: 'Bodoni';
+  font-weight: 400;
+  font-size: 20px;
+  text-align: justify;
+  background-color: blueviolet;
+}
+
 .accordion-body {
   background-color:azure;
+  font-family: 'Bodoni', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: justify;
 }
 
 
