@@ -6,6 +6,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&display=swap');
 
+@font-face {
+  font-family: 'Bebas';
+  src: url('fonts/Bebas-Regular.woff2') format ('woff2'),
+      url('fonts/Bebas-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 
 /*HTML*/
 body, html{
@@ -15,12 +25,12 @@ body, html{
     background-image: url("imgs/122-1227593_gamebook-background-book-background-images-png.png");
     height: 100%;
     background-position: center;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: cover;
   }
 
 .card-body {
-  background-color: rgba(234, 255, 0, 0.5);
+  background-color: rgba(116, 184, 240, 0.5);
 }
 
 
@@ -38,7 +48,7 @@ body, html{
 }
 
 .accordion-body {
-  background-color:azure;
+  background-color:rgb(255, 255, 255);
   font-family: 'Bodoni', sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -51,12 +61,27 @@ body, html{
 }
 
 h1 {
-  font-size: 4rem !important;
+  font-size: 5rem !important;
   font-weight: 900;
-  color: blue;
+  color: rgb(0, 0, 0);
   letter-spacing: .1rem;
   text-transform: uppercase;
   text-shadow: .1rem .1rem .8rem black;
   padding-bottom: 1rem;
-  font-family: 'Dosis', sans-serif;;
+  font-family: 'Bebas';
+}
+
+h5 {
+  font-family: 'Bebas';
+  text-transform: uppercase;
+}
+
+p {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 18px !important;
+}
+
+li {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 18px !important;
 }
