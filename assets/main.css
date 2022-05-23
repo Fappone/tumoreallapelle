@@ -8,8 +8,7 @@
 
 @font-face {
   font-family: 'Bebas';
-  src: url('fonts/Bebas-Regular.woff2') format ('woff2'),
-      url('fonts/Bebas-Regular.woff') format('woff');
+  src: url('fonts/Bebas-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -68,11 +67,11 @@ h1 {
   text-transform: uppercase;
   text-shadow: .1rem .1rem .8rem black;
   padding-bottom: 1rem;
-  font-family: 'Bebas';
+  font-family: 'Bebas' !important;
 }
 
 h5 {
-  font-family: 'Bebas';
+  font-family: 'Bebas' !important;
   text-transform: uppercase;
 }
 
