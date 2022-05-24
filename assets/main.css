@@ -79,6 +79,13 @@ p {
   font-family:'Times New Roman', Times, serif;
   font-size: 18px !important;
 }
+.green {
+  color:rgb(85, 126, 13);
+}
+
+.grey {
+  color: dimgray;
+}
 
 li {
   font-family:'Times New Roman', Times, serif;
